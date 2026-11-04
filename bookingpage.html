@@ -24,4 +24,80 @@
 </head>
 <body>
 
+    <!-- Header & Navigation-->
+    <header>
+        <h1> Enchanted Locks</h1>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = index.html#mywork>My Work</a></li>
+                <li><a href = bookingpage.html>Appointments</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     <!-- Booking Main Content-->
+      <main>
+        <section>
+            <h2>Book Your Session</h2>
+            <p>Ready for your bold transformation? Fill out the details below to request your slot with Nina.</p>
+
+            <form action="#" method="POST" class="booking-form">
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Select Service</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>-- Choose a Transformation --</option>
+                        <option value="vivid">Neon & Vivid Transformation</option>
+                        <option value="avant-garde">Avant-Garde Styling</option>
+                        <option value="precision-cut">Precision Cut</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Hair History / Special Requests</label>
+                    <textarea id="notes" name="notes" rows="4" placeholder="Tell us about your current hair color, length, or inspiration..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Appointment Request</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Enchanted Locks. Stay Bold</p>
+    </footer>
+
+</body>
+</html>
+
     
