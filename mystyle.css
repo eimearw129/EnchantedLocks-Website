@@ -200,3 +200,24 @@ input:focus, select:focus, textarea:focus {
     padding: 40px;
     border: 2px solid #ff2a85; /* Matching your neon pink border theme */
 }
+
+/* dyslexia readability improvements*/
+main p, main li {
+    text-align: left;
+    word-spacing: 0.1em;
+    letter-spacing: 0.02em;
+}
+
+/* High-Contrast keyboard focus for accessibility*/
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+    outline: 3px solid #ffe600;
+    outline-offset: 3px;
+}
+
+/*Colour Blindness / Form Support: clear text cues for feilds*/
+.required-label::after {
+    content: " (Required)";
+    color: #ffe600;
+    font-size: 0.85rem;
+    font-weight: normal;
+}
