@@ -1,4 +1,0 @@
-# WebDev_Project_EimearLtd.
-
-This website will be a digital presence and dynamic booking hub for her salon, “Enchanted Locks”. The salon is vibrant that specialises in bold and creative hair transformations. It will act as a canvas to showcase artistic hair styling portfolio work while offering client an easy way to explore services. Additionally, the platform will double as an educational and lifestyle resources where users can discover regular beauty tips and haircare guidance.
-The target audience would be people that are looking for an expressive, bold and high-quality hair styling or custom colouring services that showcase their personality. We expect visits from regular salon-goers, fashion-forward clients looking for creative makeovers, and people seeking professional haircare advice. The primary demographic will appreciate a welcoming, positive atmosphere and will actively look for a stylish, trustworthy space to book their next appointment. 
